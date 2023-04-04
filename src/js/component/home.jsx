@@ -10,10 +10,10 @@ import Card from "./Card.jsx";
 //create your first component
 const Home = () => {
   return (
-    <div>
+    <div className="container-fluid">
       <Navbar />
       <Hero />
-      <div className="d-flex row">
+      <div className="container-fluid m-auto row">
         <Card 
 		title={"Hola soy la tarjeta 1"}
 		image={"https://picsum.photos/id/237/200/300"}
